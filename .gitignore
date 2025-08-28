@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Data files - don't commit datasets to avoid large files in git
+DATA/
+data/
+*.txt
+*.csv
+*.xlsx
+*.xls
+
+# macOS
+.DS_Store
